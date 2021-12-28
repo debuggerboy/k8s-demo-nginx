@@ -3,8 +3,6 @@ kind: Service
 metadata:
   name: nginx
   namespace: kilo
-  labels:
-    app: nginx
 spec:
   type: LoadBalancer
   ports:
