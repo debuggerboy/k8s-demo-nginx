@@ -4,7 +4,7 @@ metadata:
   name: nginx
   namespace: kilo
   labels:
-    run: nginx
+    app: nginx
 spec:
   type: LoadBalancer
   ports:
